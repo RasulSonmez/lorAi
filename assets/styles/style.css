@@ -1,0 +1,64 @@
+/*Google Font*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: aliceblue;
+  font-family: "Raleway", serif;
+}
+
+/*Font Size*/
+
+.fs-8-px {
+  font-size: 8px;
+}
+
+.fs-10-px {
+  font-size: 10px;
+}
+
+.fs-12-px {
+  font-size: 12px;
+}
+
+.fs-16-px {
+  font-size: 16px;
+}
+
+.fs-18-px {
+  font-size: 18px;
+}
+.fs-20-px {
+  font-size: 20px;
+}
+
+.fs-28-px {
+  font-size: 20px;
+}
+.fs-33-px {
+  font-size: 33px;
+}
+.fs-36-px {
+  font-size: 36px;
+}
+
+.fs-62-px {
+  font-size: 62px;
+}
+
+.fs-64-px {
+  font-size: 62px;
+}
+.fs-96-px {
+  font-size: 96px;
+}
+
+/*Colors and Background Colors*/
+
+.bg-linear-primary {
+  background: rgb(167, 16, 226);
+  background: linear-gradient(
+    90deg,
+    rgba(167, 16, 226, 1) 44%,
+    rgba(113, 236, 254, 1) 84%
+  );
+}
