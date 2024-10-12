@@ -62,3 +62,27 @@ body {
     rgba(113, 236, 254, 1) 84%
   );
 }
+
+.color-orange{
+  color: #FF2020;
+}
+
+.color-yellow{
+  color: #FFEA00;
+}
+
+.color-purple{
+  color: #FF00DD;
+}
+
+.color-green{
+  color: #00FF4D;
+}
+
+.color-turquoise{
+  color: #1FCFF1;
+}
+
+.color-blue{
+  color: #4E31FF;
+}
