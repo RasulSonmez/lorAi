@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-  background-color: aliceblue;
+  background-color: #000;
   font-family: "Raleway", serif;
 }
 
@@ -63,26 +63,53 @@ body {
   );
 }
 
-.color-orange{
-  color: #FF2020;
+.color-orange {
+  color: #ff2020;
 }
 
-.color-yellow{
-  color: #FFEA00;
+.color-yellow {
+  color: #ffea00;
 }
 
-.color-purple{
-  color: #FF00DD;
+.color-purple {
+  color: #ff00dd;
 }
 
-.color-green{
-  color: #00FF4D;
+.color-green {
+  color: #00ff4d;
 }
 
-.color-turquoise{
-  color: #1FCFF1;
+.color-turquoise {
+  color: #1fcff1;
 }
 
-.color-blue{
-  color: #4E31FF;
+.color-blue {
+  color: #4e31ff;
+}
+
+/*Genel defination*/
+.border-button { 
+  border-image: linear-gradient(
+    46deg,
+    rgba(158, 0, 209, 0.1),
+    rgba(255, 255, 255, 0.48),
+    rgba(135, 115, 255, 0.6),
+    rgba(174, 160, 255, 0.76),
+    rgba(78, 48, 255, 0.99)
+  ) 1; 
+  transition: all 0.3s ease;
+}
+
+.border-button:hover {
+  background-image: linear-gradient(45deg, red, orange, yellow, green, blue);
+  border-color: transparent;
+  color: white;
+}
+/*Header*/
+
+.bg-hero {
+  background-image: url("/assets/images/header-bg.svg");
+  background-repeat: no-repeat;
+  margin-top: -5rem;
+  height: 800px;
 }
