@@ -4,6 +4,7 @@
 body {
   background-color: #000;
   font-family: "Raleway", serif;
+  overflow-x: hidden; 
 }
 
 /*Font Size*/
@@ -46,12 +47,14 @@ body {
 }
 
 .fs-64-px {
-  font-size: 62px;
+  font-size: 62px !important;
 }
 .fs-96-px {
   font-size: 96px;
 }
-
+.mt-40{
+  margin-top: 270px;
+}
 /*Colors and Background Colors*/
 
 .bg-linear-primary {
@@ -88,14 +91,14 @@ body {
 }
 
 /*Genel defination*/
-.gradient-border-mask {
+.signup-button {
   display: block;
   position: relative;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
-.gradient-border-mask::before {
+.signup-button::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -113,7 +116,7 @@ body {
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;  
 }
-.gradient-border-mask:hover{
+.signup-button:hover{
   border-radius: 15px;
   background: linear-gradient(
     46deg,
@@ -136,5 +139,147 @@ body {
   margin-top: -5rem;
   width:100% ;
   background-size: cover;
-  height: 800px;
+  height:1000px;
+}
+
+.hero-title-title{  
+  position: absolute;
+}
+
+.hero-title-shadow { 
+  content: "";
+  position: relative;
+  color: transparent;
+  top: -110px;
+  text-shadow: 0 0 18px rgb(255 255 255);
+  font-size: 90px !important;
+}
+
+.hero-button {
+  display: block;
+  position: relative;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: white;
+}
+.hero-button-active {
+  border-radius: 15px;
+  color:#fff;
+  background: linear-gradient(
+    46deg,
+    rgba(158, 0, 209, 0.1),
+    rgba(255, 255, 255, 0.48),
+    rgba(135, 115, 255, 0.6),
+    rgba(174, 160, 255, 0.76),
+    rgba(78, 48, 255, 0.99)) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);  
+}
+
+.hero-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  color: #fff;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  background: linear-gradient(
+    46deg,
+    rgba(158, 0, 209, 0.1),
+    rgba(255, 255, 255, 0.48),
+    rgba(135, 115, 255, 0.6),
+    rgba(174, 160, 255, 0.76),
+    rgba(78, 48, 255, 0.99)) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;  
+}
+.hero-button:hover{
+  border-radius: 15px;
+  color:#fff;
+  background: linear-gradient(
+    46deg,
+    rgba(158, 0, 209, 0.1),
+    rgba(255, 255, 255, 0.48),
+    rgba(135, 115, 255, 0.6),
+    rgba(174, 160, 255, 0.76),
+    rgba(78, 48, 255, 0.99)) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);  
+}
+
+.hero-button{
+  padding: 10px 50px;
+}
+
+.hero-img{
+  position: relative;
+
+}
+.hero-img,img{
+  width: 718px;
+  height: 431px;
+  object-fit: cover;
+  left: calc(100% - 64em);
+}
+.hero-blur-card-left{
+  position: absolute;
+  top: 85px;
+  left: -155px;
+  width: 302px;
+  height: 138px;
+  backdrop-filter: blur(11px) saturate(200%);
+  -webkit-backdrop-filter: blur(11px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.57);
+  border-radius: 20px;
+  border: 1px solid rgb(255, 255, 255);
+
+}
+.card-items-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.card-items-left h4{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  opacity: .8;
+}
+.left-card-img-size{
+  width: 57px;
+  height: 56px;
+  border-radius: 10px;
+}
+
+
+.hero-blur-card-right{
+  position: absolute;
+  bottom: 85px;
+  right: -155px;
+  width: 302px;
+  height: 138px;
+  backdrop-filter: blur(11px) saturate(200%);
+  -webkit-backdrop-filter: blur(11px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.57);
+  border-radius: 20px;
+  border: 1px solid rgb(255, 255, 255);
+
+}
+.card-items-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.card-items-right h4{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  opacity: .8;
+}
+.right-card-img-size{
+  width: 57px;
+  height: 56px;
+  border-radius: 10px;
 }
