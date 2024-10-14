@@ -215,16 +215,16 @@ body {
   position: relative;
 
 }
-.hero-img,img{
-  width: 718px;
+.hero-img, img{
+ 
+  width: 100%;
   height: 431px;
   object-fit: cover;
-  left: calc(100% - 64em);
 }
 .hero-blur-card-left{
   position: absolute;
-  top: 85px;
-  left: -155px;
+  top: 60px;
+  left: 120px;
   width: 302px;
   height: 138px;
   backdrop-filter: blur(11px) saturate(200%);
@@ -255,8 +255,8 @@ body {
 
 .hero-blur-card-right{
   position: absolute;
-  bottom: 85px;
-  right: -155px;
+  bottom: 60px;
+  right: 120px;
   width: 302px;
   height: 138px;
   backdrop-filter: blur(11px) saturate(200%);
