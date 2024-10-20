@@ -14,20 +14,26 @@ Large devices (desktops, 992px and up)
 XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) { ... } */
 
-
 /*Hero section*/
 
-@media (min-width: 992px) { 
-    .hero-title-wrapper{
-        margin-top: 16rem;
-    }
+@media (min-width: 992px) {
+  .hero-title-wrapper {
+    margin-top: 12rem;
+  }
 
-    .hero-title-shadow{
-        font-size: 5.625rem;
-        top: -25rem;
-    }
+  .hero-title-shadow {
+    font-size: 5.625rem;
+    top: -3rem;
+    left: 10%;
+  }
 
-    .bg-navbar-mob{
-        background:none;
-    }
- }
+  .bg-navbar-mob {
+    background: none;
+  }
+
+  .hero-img {
+    width: 718px;
+    height: 431px;
+    object-fit: cover;
+  }
+}

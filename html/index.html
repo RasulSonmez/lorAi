@@ -43,7 +43,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-          <i class='bx bx-grid-alt text-white bx-md'></i>
+            <i class="bx bx-grid-alt text-white bx-md"></i>
           </button>
           <div
             class="collapse navbar-collapse justify-content-center bg-navbar-mob text-center"
@@ -72,7 +72,9 @@
                 <a class="nav-link text-white fs-16-px fw-bold" href="#">FAQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white fs-16-px fw-bold" href="#"
+                <a
+                  class="nav-link text-white fs-16-px fw-bold cursor-pointer"
+                  href="#"
                   >Sign Up</a
                 >
               </li>
@@ -92,23 +94,118 @@
     </header>
 
     <!--Hero Section Start-->
-    <section class="bg-hero">
+    <section class="bg-hero mb-10-rem">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="mt-7-rem hero-title-wrapper d-flex flex-wrap justify-content-center align-items-center">
-              <h1
-                class="text-white fw-bold fw-bolder fs-64-px"
+            <!--hero title-->
+            <div class="position-relative">
+              <div
+                class="mt-7-rem mb-6-rem hero-title-wrapper text-center d-flex flex-wrap justify-content-center align-items-center"
               >
-                Unlock the Power of AI <br />
-                for Endless Possibilities
-              </h1>
+                <h1 class="text-white fw-bold fw-bolder fs-64-px">
+                  Unlock the Power of AI <br />
+                  for Endless Possibilities
+                </h1>
+              </div>
+              <div class="text-center">
+                <p class="fw-bold text-white hero-title-shadow">
+                  Unlock the Power of AI <br />
+                  for Endless Possibilities
+                </p>
+              </div>
             </div>
-            <div class="pt-13-rem text-center">
-              <p class="fw-bold text-white hero-title-shadow">
-                Unlock the Power of AI <br />
-                for Endless Possibilities
-              </p>
+            <!--hero buttons-->
+            <div class="mb-5">
+              <div class="d-flex align-items-center justify-content-center">
+                <button class="btn hero-button-active text-nowrap p-3 me-3">
+                  Get Started
+                </button>
+                <button class="btn hero-button text-nowrap p-3">
+                  Wathch Demo
+                </button>
+              </div>
+            </div>
+
+            <!--hero image-->
+            <div class="d-flex align-items-center justify-content-center">
+              <div class="position-relative">
+                <div>
+                  <img
+                    class="img-fluid rounded-3 border-gray shadow hero-img"
+                    src="/assets/images/heroimg.jpg"
+                    alt="hero-image"
+                  />
+                </div>
+                <!--left image card-->
+                <div class="d-none d-lg-block">
+                  <div class="hero-card-left">
+                    <h4 class="fs-20-px text-white fw-semibold opacity-75">
+                      Image generate
+                    </h4>
+                    <div class="card-images">
+                      <img
+                        class="h-55-px w-55-px object-fit-cover rounded-3 me-1"
+                        src="/assets/images/robot-girl-one.webp"
+                        alt=""
+                      />
+                      <img
+                        class="h-55-px w-55-px object-fit-cover rounded-3 me-1"
+                        src="/assets/images/girl-two.jpeg"
+                        alt=""
+                      />
+                      <img
+                        class="h-55-px w-55-px object-fit-cover rounded-3 me-1"
+                        src="/assets/images/girl-three.jpg"
+                        alt=""
+                      />
+
+                      <img
+                        class="h-55-px w-55-px object-fit-cover rounded-3 me-1"
+                        src="/assets/images/image-one.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <!--right image card-->
+                <div class="d-none d-lg-block">
+                  <div class="hero-card-right">
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div>
+                        <p class="fs-24-px fw-semibold text-white">
+                          AI Weather
+                        </p>
+                        <span class="text-white fs-16-px">
+                          Get weather forecasts with artificial <br />
+                          intelligence.
+                        </span>
+                      </div>
+                      <div>
+                        <div class="d-flex flex-column align-items-center">
+                          <span class="fs-12-px text-white">
+                            New York <i class="bx bx-location-plus"></i>
+                          </span>
+                          <span class="fs-12-px text-white">
+                            Tuesday - May 22
+                          </span>
+                        </div>
+                        <div>
+                          <img
+                            width="90"
+                            class="img-fluid object-fit-cover rounded-3 me-1"
+                            src="/assets/images/weather.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -116,9 +213,153 @@
     </section>
     <!--Hero Section Finish-->
 
-    <!--Services Section Start-->
-    <section class="my-5"></section>
-    <!--Services Section Finish-->
+    <!--Features Section Start-->
+    <section class="bg-features">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!--item 1-->
+          <div class="col-lg-4 mb-3">
+            <div class="custom-card-fa text-center">
+              <img
+                class="img-fluid object-fit-cover mb-3"
+                src="/assets/images/flight.png"
+                alt=""
+              />
+              <div>
+                <h3 class="text-white fw-bold fs-16-px mb-2">
+                  AI-Powered Rotation Planning
+                </h3>
+                <p class="text-justify text-white fs-12-px">
+                  Optimize flight routes and fuel consumption with AI-driven
+                  flight planning. Analyze weather forecasts, flight durations,
+                  and aircraft capacity to reduce costs and enhance operational
+                  efficiency. Elevate aviation with smarter, safer, and more
+                  sustainable solutions for the skies of tomorrow!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--item 2-->
+          <div class="col-lg-4 mb-3">
+            <div class="custom-card-fa text-center">
+              <img
+                class="img-fluid object-fit-cover mb-3"
+                src="/assets/images/location.png"
+                alt=""
+              />
+              <div>
+                <h3 class="text-white fw-bold fs-16-px mb-2">
+                  AI-Enhanced Travel Itinerary Planning
+                </h3>
+                <p class="text-justify text-white fs-12-px">
+                  Plan your perfect trip with AI-driven travel itinerary
+                  optimization. Analyze travel preferences, budget constraints,
+                  and real-time data to create personalized and efficient
+                  routes. Discover new destinations, minimize travel time, and
+                  enhance your travel experience with cutting-edge AI solutions!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--item 3-->
+          <div class="col-lg-4 mb-3">
+            <div class="custom-card-fa text-center">
+              <img
+                class="img-fluid object-fit-cover mb-3"
+                src="/assets/images/truck.png"
+                alt=""
+              />
+              <div>
+                <h3 class="text-white fw-bold fs-16-px mb-2">
+                  AI-Driven Cargo Integration
+                </h3>
+                <p class="text-justify text-white fs-12-px">
+                  Streamline logistics with AI-powered cargo integration.
+                  Optimize shipping routes, manage inventory, and forecast
+                  delivery times with real-time data and predictive analytics.
+                  Reduce costs, enhance efficiency, and improve delivery
+                  accuracy through smart, automated cargo solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--item 4-->
+          <div class="col-lg-4 mb-3">
+            <div class="custom-card-fa text-center">
+              <img
+                class="img-fluid object-fit-cover mb-3"
+                src="/assets/images/arrowup.png"
+                alt=""
+              />
+              <div>
+                <h3 class="text-white fw-bold fs-16-px mb-2">
+                  AI-Powered Budget Planning
+                </h3>
+                <p class="text-justify text-white fs-12-px">
+                  Take control of your finances with AI-driven budget planning.
+                  Analyze spending patterns, forecast future expenses, and
+                  receive personalized financial recommendations. Optimize your
+                  budget, save more efficiently, and achieve your financial
+                  goals with smart, automated planning tools.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--item 5-->
+          <div class="col-lg-4 mb-3">
+            <div class="custom-card-fa text-center">
+              <img
+                class="img-fluid object-fit-cover mb-3"
+                src="/assets/images/home.png"
+                alt=""
+              />
+              <div>
+                <h3 class="text-white fw-bold fs-16-px mb-2">
+                  AI-Powered Smart Home Control
+                </h3>
+                <p class="text-justify text-white fs-12-px">
+                  Optimize flight routes and fuel consumption with AI-driven
+                  flight planning. Analyze weather forecasts, flight durations,
+                  and aircraft capacity to reduce costs and enhance operational
+                  efficiency. Elevate aviation with smarter, safer, and more
+                  sustainable solutions for the skies of tomorrow!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--item 6-->
+          <div class="col-lg-4 mb-3">
+            <div class="custom-card-fa text-center">
+              <img
+                class="img-fluid object-fit-cover mb-3"
+                src="/assets/images/movie.png"
+                alt=""
+              />
+              <div>
+                <h3 class="text-white fw-bold fs-16-px mb-2">
+                  AI-Enhanced Video Creation Tool
+                </h3>
+                <p class="text-justify text-white fs-12-px">
+                  Unleash your creativity with our AI-powered video creation
+                  application. Simplify the editing process, automate scene
+                  transitions, and enhance video quality with intelligent
+                  suggestions. Whether you're a beginner or a seasoned creator,
+                  our tool offers personalized features that elevate your
+                  storytelling and help you produce stunning videos
+                  effortlessly.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Features Section Finish-->
 
     <!--Live Data Section Start-->
     <section></section>
