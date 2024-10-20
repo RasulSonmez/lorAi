@@ -54,12 +54,20 @@ body {
 }
 
 /*Spacing*/
-.mt-40 {
-  margin-top: 270px;
+.mt-16-rem {
+  margin-top: 16rem;
+}
+
+.mt-7-rem{
+  margin-top: 7rem;
 }
 
 .pt-16-rem{
   padding-top: 16rem;
+}
+
+.pt-13-rem{
+  padding-top: 13rem;
 }
 /*Colors and Background Colors*/
 
@@ -97,6 +105,18 @@ body {
 }
 
 /*Genel defination*/
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.button-padding {
+  padding: 10px 50px;
+}
+/*navbar*/
+.bg-navbar-mob{
+  background: rgb(167, 16, 226);
+  background:linear-gradient(90deg, rgb(167 16 226 / 28%) 44%, rgb(113 236 254 / 37%) 84%);
+}
 .signup-button {
   display: block;
   position: relative;
@@ -104,13 +124,6 @@ body {
   backdrop-filter: blur(10px);
 }
 
-.cursor-pointer {
-  cursor: pointer;
-}
-.border-button {
-  padding: 10px 50px;
-}
-/*navbar*/
 .signup-button::before {
   content: "";
   position: absolute;
@@ -156,3 +169,12 @@ body {
   height: 1000px;
 }
 
+.hero-title-shadow {  
+  position: relative;
+  word-break: break-all;
+  color: transparent;
+  top: -31rem;
+  text-shadow: 0 0 18px rgb(255 255 255);
+  font-size: 3rem;
+  filter: blur(13px);
+}
