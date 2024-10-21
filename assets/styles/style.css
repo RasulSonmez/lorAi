@@ -37,7 +37,7 @@ body {
 }
 
 .fs-28-px {
-  font-size: 20px;
+  font-size: 28px;
 }
 .fs-33-px {
   font-size: 33px;
@@ -88,6 +88,10 @@ body {
 
 .pt-13-rem{
   padding-top: 13rem;
+}
+
+.pb-13-rem{
+  padding-bottom: 13rem;
 }
 /*Colors and Background Colors*/
 
@@ -148,6 +152,39 @@ body {
 .text-justify{
   text-align: justify;
 }
+
+.dot-turquoise {
+  width: 17px;        
+  height: 17px;   
+  background-color: #1fcff1; 
+  border-radius: 50%;   
+  display: inline-block;
+}
+
+
+.border-left-title-orange{
+  border-left: 10px solid #FF2020;
+  padding:.3rem;
+}
+
+
+.border-left-title-yellow{
+  border-left: 10px solid #ffea00;
+  padding:.3rem;
+}
+
+
+.border-left-title-purple{
+  border-left: 10px solid #ff00dd;
+  padding:.3rem;
+}
+
+.border-left-title-green{
+  border-left: 10px solid #00ff4d;
+  padding:.3rem;
+}
+
+
 /*navbar*/
 .bg-navbar-mob{
   background: rgb(167, 16, 226);
@@ -323,10 +360,22 @@ body {
   background-image: url("/assets/images/ai-input-generate.svg");
   background-repeat: no-repeat;
   width: 100%;
-  background-size: cover; 
-  height: 800px;
+  background-size: cover;   
 }
 
-.live-data-title-wrapper {
-  transform: rotate(270deg);
+
+.custom-card-live-data{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 1rem;
+  background-color: rgba(11, 37, 61, .7) ;
+  height: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 300ms all ease-in;
+}
+
+.custom-card-live-data:hover{
+  background-color: rgba(11, 37, 61, 1);
 }
