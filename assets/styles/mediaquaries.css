@@ -46,4 +46,13 @@ XX-Large devices (larger desktops, 1400px and up)
     left: -3rem;
     line-height: 4rem;
   }
+
+  /*how its work*/
+  .text-signup-hiw{
+    padding-top: 13rem;
+  }
+
+  .hiw-wrapper{
+    margin-bottom: 10rem;
+  }
 }
